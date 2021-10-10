@@ -20,13 +20,13 @@ Dapp on React Native 版本升级封装库，兼容Android4以上所有版本
 ### 二、使用
 
 ```xml
-  yarn add dapp-upgrade
+  yarn add react-native-dapp-upgrade
 
   // or 
-  npm install dapp-upgrade
+  npm install react-native-dapp-upgrade
  
   // less than 0.6
-  react-native link dapp-upgrade
+  react-native link react-native-dapp-upgrade
 ```
 
 iOS
@@ -40,7 +40,7 @@ iOS
     openAPPStore,
     checkIOSUpdate,
     addDownLoadListener,
-  } from 'dapp-upgrade';
+  } from 'react-native-dapp-upgrade';
   
   const {
     versionName,

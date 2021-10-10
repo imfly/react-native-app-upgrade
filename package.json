@@ -1,6 +1,6 @@
 {
   "name": "react-native-dapp-upgrade",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dapp on react native upgrade",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imfly/dapp-upgrade.git"
+    "url": "git+https://github.com/imfly/react-native-dapp-upgrade.git"
   },
   "keywords": [
     "react-native",
@@ -20,9 +20,9 @@
   "author": "songlcy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/imfly/dapp-upgrade/issues"
+    "url": "https://github.com/imfly/react-native-dapp-upgrade/issues"
   },
-  "homepage": "https://github.com/imfly/dapp-upgrade#readme",
+  "homepage": "https://github.com/imfly/react-native-dapp-upgrade#readme",
   "dependencies": {
     "react-native-blob-util": "^0.13.16"
   }
