@@ -2,7 +2,7 @@ import {
     Platform,
     NativeModules,
 } from 'react-native';
-import RNFetchBlob from 'rn-fetch-blob';
+import RNFetchBlob from 'react-native-blob-util';
 
 const RNUpgrade = NativeModules.upgrade;
 const ANDROID_PLATFORM = Platform.OS === 'android';

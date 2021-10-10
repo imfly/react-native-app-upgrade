@@ -1,5 +1,6 @@
 
-React Native App 版本升级封装库，兼容Android4以上所有版本
+Dapp on React Native 版本升级封装库，兼容Android4以上所有版本
+---------
 
 ### 一、功能
 #### Android
@@ -19,13 +20,13 @@ React Native App 版本升级封装库，兼容Android4以上所有版本
 ### 二、使用
 
 ```xml
-  yarn add rn-app-upgrade
+  yarn add dapp-upgrade
 
   // or 
-  npm install rn-app-upgrade
+  npm install dapp-upgrade
  
   // less than 0.6
-  react-native link rn-app-upgrade
+  react-native link dapp-upgrade
 ```
 
 iOS
@@ -36,19 +37,22 @@ iOS
 
   import { 
     downloadApk,
-    versionName,
-    versionCode,
     openAPPStore,
     checkIOSUpdate,
     addDownLoadListener,
-  } from 'rn-app-upgrade';
+  } from 'dapp-upgrade';
   
+  const {
+    versionName,
+    versionCode
+  } = NativeModule.upgrade;
+
   //可通过RN.versionName获取apk版本号和远程版本号进行比较
   if(Android) {
     if(res.versionCode > versionCode) {
         downloadApk({
             interval: 666, // listen to upload progress event, emit every 666ms
-            apkUrl: "https://xxxx.apk",
+            apkUrl: "https://xxxx.apk", // android 限制必须 https 地址
             downloadInstall: true,
             callback: {
                 onProgress: (received, total， percent) => {},
@@ -64,3 +68,5 @@ iOS
     IOSUpdateInfo.version
   }
 ```
+
+感谢 <https://github.com/songxiaoliang/react-native-app-upgrade>

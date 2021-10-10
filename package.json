@@ -1,14 +1,14 @@
 {
-  "name": "rn-app-upgrade",
-  "version": "2.1.8",
-  "description": "react native app upgrade",
+  "name": "react-native-dapp-upgrade",
+  "version": "1.0.0",
+  "description": "Dapp on react native upgrade",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/songxiaoliang/react-native-app-upgrade.git"
+    "url": "git+https://github.com/imfly/dapp-upgrade.git"
   },
   "keywords": [
     "react-native",
@@ -20,10 +20,10 @@
   "author": "songlcy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/songxiaoliang/react-native-app-upgrade/issues"
+    "url": "https://github.com/imfly/dapp-upgrade/issues"
   },
-  "homepage": "https://github.com/songxiaoliang/react-native-app-upgrade#readme",
+  "homepage": "https://github.com/imfly/dapp-upgrade#readme",
   "dependencies": {
-    "rn-fetch-blob": "^0.12.0"
+    "react-native-blob-util": "^0.13.16"
   }
 }
